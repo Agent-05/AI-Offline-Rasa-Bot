@@ -1,0 +1,25 @@
+version: "3.1"
+
+intents:
+  - bot_challenge
+  - turn_on_light
+  - start_coffee_machine
+  - set_alarm
+  - open_chrome
+  - set_volume
+  - drop_needle
+actions:
+  - action_turn_on_light
+  - action_start_coffee_machine
+  - action_set_alarm
+  - action_open_chrome
+  - action_drop_needle
+  - action_set_volume
+
+responses:
+  utter_iamabot:
+    - text: "I am a bot, powered by Rasa."
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

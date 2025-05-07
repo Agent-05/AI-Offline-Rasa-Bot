@@ -1,0 +1,32 @@
+version: "3.1"
+
+stories:
+  - story: Turn on light
+    steps:
+      - intent: turn_on_light
+      - action: action_turn_on_light
+
+  - story: Start coffee machine
+    steps:
+      - intent: start_coffee_machine
+      - action: action_start_coffee_machine
+
+  - story: Set alarm
+    steps:
+      - intent: set_alarm
+      - action: action_set_alarm
+
+  - story: Open Chrome
+    steps:
+      - intent: open_chrome
+      - action: action_open_chrome
+
+  - story: Drop My Needle
+    steps:
+      - intent: drop_needle
+      - action: action_drop_needle
+
+  - story: Action Set Volume
+    steps:
+      - intent: set_volume
+      - action: action_set_volume

@@ -1,0 +1,9 @@
+# General dependencies
+requests==2.28.1
+pyaudio==0.2.11
+vosk==0.22.0
+rasa==2.8.2
+rasa-sdk==2.8.2
+word2number==1.1
+pycaw==20210629
+comtypes==1.1.10

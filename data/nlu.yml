@@ -1,0 +1,42 @@
+version: "3.1"
+
+nlu:
+  - intent: bot_challenge
+    examples: |
+      - are you a bot?
+      - are you a human?
+      - am I talking to a bot?
+      - am I talking to a human?
+
+  - intent: turn_on_light
+    examples: |
+      - turn on the light
+
+  - intent: start_coffee_machine
+    examples: |
+      - start the coffee machine
+
+  - intent: set_alarm
+    examples: |
+      - set an alarm for 7 AM
+      - set an alarm
+
+  - intent: open_chrome
+    examples: |
+      - open google
+      - open chrome
+      - search it up
+
+  - intent: drop_needle
+    examples: |
+      - drop my needle
+      - play music
+      - set the mood
+
+  - intent: set_volume
+    examples: |
+      - set volume
+      - quieter
+      - louder
+      - 100
+      - 0
