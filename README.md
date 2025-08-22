@@ -13,13 +13,11 @@ You can install the required Python libraries by running the following in your v
 ```bash
 pip install -r requirements.txt
 
-ok so essentailly open a terminal, make sure you get into the venv first
 .\venv\Scripts\activate
-then say rasa run
-then say rasa run actions
-then say py main.py
-
-all in seperate terminals
+//open a seperate terminal for each
+rasa run
+rasa run actions
+py main.py
 
 then press voice activation, make sure the mic works
 and then you can use any of the commands listed in domain as intents
